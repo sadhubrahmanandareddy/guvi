@@ -10,9 +10,9 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner s=new Scanner(System.in);
-	double a=s.nextInt();
-	double b=s.nextInt();
-	double h;
+	int a=s.nextInt();
+	int b=s.nextInt();
+	int h;
 	h=(int)Math.pow(a,b);
 	System.out.println(h);
 	}
