@@ -12,7 +12,7 @@ class Ideone
 		{
 			d=n*i;
 			System.out.print(d+" ");
-			if(i==5)
+			if(i==5) 
 			break;
 		}
 	}
