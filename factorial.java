@@ -13,7 +13,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		if(n==0)
-		System.out.println("1");
+		System.out.println(1);
 		else
 		{
 			for(i=1;i<=n;i++)
@@ -22,6 +22,6 @@ class Ideone
 			}
 		
 		System.out.println(a);
-		}1
+		}
 	}
 }
