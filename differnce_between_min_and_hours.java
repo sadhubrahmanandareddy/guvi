@@ -11,14 +11,14 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int hr1,min1,hr2,min2;
+		int hour1,minute1,hour2,minute2;
 		int hours,minutes;
-		hr1=s.nextInt();
-		min1=s.nextInt();
-		hr2=s.nextInt();
-		min2=s.nextInt();
-		hours=hr1-hr2;
-		minutes=min1-min2;
+		hour1=s.nextInt();
+		minute1=s.nextInt();
+		hour2=s.nextInt();
+		minute2=s.nextInt();
+		hours=hour1-hour2;
+		minutes=minute1-minute2;
 		
 		System.out.println(Math.abs(hours)+" "+Math.abs(minutes));
 	}
