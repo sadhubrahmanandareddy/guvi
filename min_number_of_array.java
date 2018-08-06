@@ -12,7 +12,8 @@ class Ideone
       int array[]=new int[10];
       int size,i;
       size=s.nextInt();
-      int min;      
+      int min;   
+      if(size>=1&&size<=100000){
          for(i=0;i<size;i++)
            { 
          	array[i]=s.nextInt();
@@ -27,5 +28,5 @@ class Ideone
          }
          System.out.println(min);
 	}
-	
+	}
 }
