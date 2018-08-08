@@ -10,17 +10,17 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	 Scanner s=new Scanner(System.in);
-	  String str=s.nextLine();
-	  int i,count=0;
-	  char ch;
-	  for(i=0;i<str.length();i++)
+	  String string=s.nextLine();
+	  int i,sum=0;
+	  char c;
+	  for(i=0;i<string.length();i++)
 	  {
-	  	ch=str.charAt(i);
-	  	if(ch!=' ')
+	  	c=string.charAt(i);
+	  	if(c!=' ')
 	  	{
-	  		count++;
+	  		sum++;
 	    }
 	}
-	System.out.print(count);
+	System.out.print(sum);
 }
 }
