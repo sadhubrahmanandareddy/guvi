@@ -10,28 +10,23 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		 Scanner s=new Scanner(System.in);
-      int array[]=new int[10];
-      int size,i;
-      size=s.nextInt();
+      int a[]=new int[10];
+      int si,i;
+      si=s.nextInt();
       int max;   
-      if(size>=1&&size<=100000){
-         for(i=0;i<size;i++)
+            
+         for(i=0;i<si;i++)
            { 
-         	array[i]=s.nextInt();
+         	a[i]=s.nextInt();
            }
-            max=array[0];
-         for(i=1;i<size;i++)
+            max=a[0];
+         for(i=1;i<si;i++)
             {
-         	if(max<array[i])
+         	if(max<a[i])
          	 {
-         		max=array[i];
+         		max=a[i];
          	}
          }
          System.out.println(max);
-	}
-	else
-	{
-		
-	}
 	}
 }
