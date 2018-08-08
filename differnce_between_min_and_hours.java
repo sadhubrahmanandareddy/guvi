@@ -11,15 +11,15 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int hour1,minute1,hour2,minute2;
-		int hours,minutes;
-		hour1=s.nextInt();
-		minute1=s.nextInt();
-		hour2=s.nextInt();
-		minute2=s.nextInt();
-		hours=hour1-hour2;
-		minutes=minute1-minute2;
+		int h1,m1,h2,m2;
+		int ho,min;
+		h1=s.nextInt();
+		m1=s.nextInt();
+		h2=s.nextInt();
+		m2=s.nextInt();
+		ho=h1-h2;
+		min=m1-m2;
 		
-		System.out.println(Math.abs(hours)+" "+Math.abs(minutes));
+		System.out.println(Math.abs(ho)+" "+Math.abs(min));
 	}
 }
