@@ -10,14 +10,14 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int number,firstterm,commondiff,sum;
-		number=s.nextInt();
-		firstterm=s.nextInt();
-		commondiff=s.nextInt();
-		if((number>=1&&number<=100000)&&(firstterm>=1&&firstterm<=100000)&&(commondiff>=1&&commondiff<=100000))
+		int num,fi,co,su;
+		num=s.nextInt();
+		fi=s.nextInt();
+		co=s.nextInt();
+		if((num>=1&&num<=100000)&&(fi>=1&&fi<=100000)&&(co>=1&&co<=100000))
 		{
-		sum =((number)*(2*firstterm + (number- 1)*commondiff))/2;
-		System.out.println(sum);
+		su =((num)*(2*fi + (num- 1)*co))/2;
+		System.out.println(su);
 	           }
 	           else
 	           {
