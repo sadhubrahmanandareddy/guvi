@@ -10,18 +10,18 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int n,t1=1,t2=1,i,sum;
-		n=s.nextInt();
-		for(i=1;i<=n;i++)
-		{        if(i<n)
+		int num,n1=1,n2=1,i,su;
+		num=s.nextInt();
+		for(i=1;i<=num;i++)
+		{        if(i<num)
 		      {  
-			System.out.print(t1+" ");
-	                   		sum=t1+t2;
-			t1=t2;
-			t2=sum;
+			System.out.print(n1+" ");
+	                   		su=n1+n2;
+			n1=n2;
+			n2=su;
 		      }
 	                 	else{
-		           	System.out.print(t1);
+		           	System.out.print(n1);
 	                 	}
 		}
 	}
