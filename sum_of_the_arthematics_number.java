@@ -14,15 +14,7 @@ class Ideone
 		num=s.nextInt();
 		fi=s.nextInt();
 		co=s.nextInt();
-		if((num>=1&&num<=100000)&&(fi>=1&&fi<=100000)&&(co>=1&&co<=100000))
-		{
 		su =((num)*(2*fi + (num- 1)*co))/2;
 		System.out.println(su);
-	           }
-	           else
-	           {
-	           	System.out.println("oops! enter values between 0 and 1000000");
-	           	
-	           }
 	}
 }
