@@ -12,12 +12,12 @@ class Ideone
 		Scanner s= new Scanner(System.in);
 		String string;
 		string=s.next();
-		char ch;
+		char c;
 		int count=0,i;
 		for(i=0;i<string.length();i++)
 		{
-		   ch=string.charAt(i);
-		   if(Character.isLetter(ch))
+		   c=string.charAt(i);
+		   if(Character.isLetter(c))
 		   {
 		   	count=1;
 		   }
