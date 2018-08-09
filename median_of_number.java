@@ -10,24 +10,23 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int a[]=new int[10];
+		int array[]=new int[10];
 		int n=s.nextInt();
 		int i,j,t,median;
-		if(n>=1&&n<=1000)
-		{
+	
 		for(i=0;i<n;i++)
 		{
-		   a[i]=s.nextInt();   //array value reading here
+		   array[i]=s.nextInt();   //array value reading here
 		}
 		for(i=0;i<n;i++)
 		{
 			for(j=i+1;j<n;j++)
 			{
-		                      if(a[i]>a[j])
+		                      if(array[i]>array[j])
 				{
-					 t=a[i];
-					a[i]=a[j];
-					a[j]=t;
+					 t=array[i];
+					array[i]=array[j];
+					array[j]=t;
 				}
 			} 
 			
@@ -35,21 +34,13 @@ class Ideone
 	
 		if(n%2==0)
 		{
-			median=(a[(n/2)]+a[((n-2)/2)])/2;
+			median=(array[(n/2)]+array[((n-2)/2)])/2;
 	                   System.out.println(median);
 			
 		}
 		else{
-			median=a[n/2];
+			median=array[n/2];
 			System.out.println(median);
 		}		
-			
-		}  	
-		else{
-			System.out.printf("enter the size between 0 and 10000!");
-			
 		}
-		
-		
-	}
 }
