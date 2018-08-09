@@ -11,34 +11,32 @@ class Ideone
 	{
 	 Scanner s=new Scanner(System.in);
 	 int n,i,j,t;
-	 int array[]=new int[10];
+	 int arr[]=new int[10];
 	 n=s.nextInt();
-	 if(n>=1&&n<=1000){
+	
 	 for(i=0;i<n;i++)
 	 {
-	 	array[i]=s.nextInt();
+	 	arr[i]=s.nextInt();
 	 	}
 	 	for(i=0;i<n;i++)
 	 	{
 	 		for(j=i+1;j<n;j++)
 	 		{
-	 			if(array[i]>array[j])
+	 			if(arr[i]>arr[j])
 	 			{
-	 				t=array[i];
-	 				array[i]=array[j];
-	 				array[j]=t;
+	 				t=arr[i];
+	 				arr[i]=arr[j];
+	 				arr[j]=t;
 	 			}
 	 		}
 	 	}
 	 	
 	 	for(i=0;i<n-1;i++){
-	 	System.out.print(array[i]+" ");
+	 	System.out.print(arr[i]+" ");
 	 		
 	 	}
-	 	System.out.print(array[i]);
-	 }
-	 else{
-	 	
-	 }
+	 	System.out.print(arr[i]);
+	 
+
 	}
 }
