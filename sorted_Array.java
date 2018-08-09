@@ -11,37 +11,32 @@ class Ideone
 	{
 	 Scanner s=new Scanner(System.in);
 	 int n,i,j,temp;
-	 int a[]=new int[20];
+	 int ar[]=new int[20];
 	 n=s.nextInt();
-	 if(n>=1&&n<=100000)
-	 {
+	
 	 	 for(i=1;i<=n;i++)
 	 	 {
-	 	 	a[i]=s.nextInt();
+	 	 	ar[i]=s.nextInt();
 	 	 }
 	 	 for(i=1;i<=n;i++)
 	 	 {
 	 	 	for(j=i+1;j<=n;j++)
 	 	 	{
-	 	 		if(a[i]>a[j])
+	 	 		if(ar[i]>ar[j])
 	 	 		{
-	 	 		  temp=a[i];
-	 	 		  a[i]=a[j];
-	 	 		  a[j]=temp;
+	 	 		  temp=ar[i];
+	 	 		  ar[i]=ar[j];
+	 	 		  ar[j]=temp;
 	 	 		}
 	 	 	}
 	 	 	
 	 	 }
 	 	 for(i=1;i<=n;i++)
 	 	 {  if(i<n)
-	 	 	System.out.print(a[i]+" ");
+	 	 	System.out.print(ar[i]+" ");
 	 	 	else
-	 	 	System.out.print(a[n]);
+	 	 	System.out.print(ar[n]);
 	 	 }
-	 }
-	 else
-	 {
-	 	System.out.print("oops! you enterd the out out of the range .enter between 0 and 1000000");
-	 }
+	 
 	}
 }
