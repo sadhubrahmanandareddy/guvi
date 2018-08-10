@@ -11,13 +11,13 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		int h1,m1,h2,m2;
+		int ho1,m1,h2,m2;
 		int ho,min;
-		h1=s.nextInt();
+		ho1=s.nextInt();
 		m1=s.nextInt();
 		h2=s.nextInt();
 		m2=s.nextInt();
-		ho=h1-h2;
+		ho=ho1-h2;
 		min=m1-m2;
 		
 		System.out.println(Math.abs(ho)+" "+Math.abs(min));
