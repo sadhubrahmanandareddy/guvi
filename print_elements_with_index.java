@@ -13,11 +13,11 @@ class Ideone
 		int i,n;
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
-		int array[]=new int[10];
+		int a[]=new int[10];
 		for(i=0;i<n;i++)
 		{
-		array[i]=s.nextInt();
-		System.out.println(array[i]+" "+i);
+		a[i]=s.nextInt();
+		System.out.println(a[i]+" "+i);
 		}
 		
 		
