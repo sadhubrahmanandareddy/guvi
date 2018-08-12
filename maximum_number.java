@@ -10,15 +10,15 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	    Scanner s=new Scanner(System.in);
-	    int n=s.nextInt();
+	    
 	    int i,max;
 	    int a[]=new int[20];
-	    for(i=1;i<=n;i++)
+	    for(i=1;i<=10;i++)
 	    {
 	    	a[i]=s.nextInt();
 	    }
 	    max=a[1];
-	    for(i=1;i<=n;i++)
+	    for(i=1;i<=10;i++)
 	    {
 	    	if(max<a[i])
 	    	{
