@@ -9,26 +9,24 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int i=1,n,r,k;
-		Scanner s=new Scanner(System.in);
-	            n=s.nextInt();
-	             int a[]=new int[16];
-	  
-                   while(n>0) 
-                   {
-                      	r=n%10;                           
-      	             if(r%2!=0)                                                        //  n=3056
-      	             {
-      	             a[i++]=r;                                                             //a[i]=r;-> the output  3  0 5 0
-      	                                                                                 
-                       	}                                                                                 //  i++;
-                    
-      	           n=n/10;
-                         }
-                       for(k=i-1;k>0;k--)
-                       {
-      	          System.out.print(a[k]+" ");
-      	         
-                       }
-	           }
-                     }
+		int n,i=0;
+		int a[]=new int[20];
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		while(n!=0)
+		{
+			int r=n%10;
+			if(r%2!=0)
+			{
+				a[i++]=r;
+			}
+			n=n/10;
+		}
+		for(int j=i-1;j>=0;j--)
+		{             if(j>=1)
+			System.out.print(a[j]+" ");
+			if(j==0)
+			System.out.println(a[j]);
+		}
+	}
+}
