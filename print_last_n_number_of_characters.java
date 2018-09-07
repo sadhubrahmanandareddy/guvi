@@ -12,9 +12,9 @@ class Ideone
 		int i;
 		Scanner s=new Scanner(System.in);
                       String str=s.next();
-                        System.out.println(str);
+                      
                         int length=str.length();
-                      //  System.out.println(str.length());
+                      
                         int n=s.nextInt();
                         for(i=length-n;i<str.length();i++)
                         {
